@@ -7,12 +7,12 @@
 
 const frame = document.querySelector('.frame');
 let currentItem = 0;
-let totalItems = 10; // change this if you do more than 10 items
+let totalItems = 20; // change this if you do more than 10 items
 
 async function getData() {
     try {
         const response = await fetch(
-            'https://api.thecatapi.com/v1/images/search?limit=10',
+            'https://api.thecatapi.com/v1/images/search?limit=20',
             {
                 headers: {
                     'x-api-key': 'live_1vLcPdSe02SkJyFzHg11I47gQZFHbjBikxQfaohtFAaVFfrM7kVOHhaxxb1dmV1Q'
